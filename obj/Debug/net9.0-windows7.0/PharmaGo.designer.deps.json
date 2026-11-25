@@ -30,10 +30,8 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Analyzers/3.3.3": {},
       "Microsoft.CodeAnalysis.Common/4.5.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Analyzers": "3.3.3",
           "System.Collections.Immutable": "6.0.0",
           "System.Reflection.Metadata": "6.0.1",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -368,7 +366,6 @@
       "Microsoft.EntityFrameworkCore/8.0.33": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.33",
-          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.33",
           "Microsoft.Extensions.Caching.Memory": "9.0.18",
           "Microsoft.Extensions.Logging": "8.0.1"
         },
@@ -387,7 +384,6 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/8.0.33": {},
       "Microsoft.EntityFrameworkCore.Design/8.0.33": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
@@ -868,13 +864,6 @@
       "path": "microsoft.bcl.cryptography/9.0.18",
       "hashPath": "microsoft.bcl.cryptography.9.0.18.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Analyzers/3.3.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-j/rOZtLMVJjrfLRlAMckJLPW/1rze9MT1yfWqSIbUPGRu1m1P0fuo9PmqapwsmePfGB5PJrudQLvmUOAMF0DqQ==",
-      "path": "microsoft.codeanalysis.analyzers/3.3.3",
-      "hashPath": "microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512"
-    },
     "Microsoft.CodeAnalysis.Common/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -944,13 +933,6 @@
       "sha512": "sha512-RYv2sksae7RCzaVMw9Ik8dWY51gjAv9UNYXTxHqupQKhJAq2v4eUgxCm8HNJUuszK+Wpl/n2WOooncuaNVHzzg==",
       "path": "microsoft.entityframeworkcore.abstractions/8.0.33",
       "hashPath": "microsoft.entityframeworkcore.abstractions.8.0.33.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Analyzers/8.0.33": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oIkgTUSovwFwv7qwIxce6x/+9yZThtdG0cRHjXlyV2i5mZR8gIL7uDzziIUV4Ju9FFbjUpVK2477+wpWQli9wA==",
-      "path": "microsoft.entityframeworkcore.analyzers/8.0.33",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.33.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Design/8.0.33": {
       "type": "package",

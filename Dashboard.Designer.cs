@@ -77,6 +77,7 @@
             label11 = new Label();
             label12 = new Label();
             label13 = new Label();
+            btnAdd = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView11).BeginInit();
@@ -414,9 +415,9 @@
             Language.Font = new Font("Segoe UI", 7F);
             Language.ForeColor = Color.FromArgb(60, 128, 125);
             Language.FormattingEnabled = true;
-            Language.Location = new Point(1208, 92);
+            Language.Location = new Point(1208, 88);
             Language.Name = "Language";
-            Language.Size = new Size(94, 23);
+            Language.Size = new Size(119, 23);
             Language.TabIndex = 52;
             Language.Text = "EN";
             // 
@@ -722,11 +723,27 @@
             label13.Text = "1";
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // btnAdd
+            // 
+            btnAdd.BackColor = Color.FromArgb(60, 128, 125);
+            btnAdd.Cursor = Cursors.Hand;
+            btnAdd.FlatStyle = FlatStyle.Flat;
+            btnAdd.Font = new Font("Comic Sans MS", 9F, FontStyle.Bold);
+            btnAdd.ForeColor = Color.White;
+            btnAdd.Location = new Point(1208, 150);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(119, 29);
+            btnAdd.TabIndex = 104;
+            btnAdd.Text = "Add Product";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1363, 1055);
+            Controls.Add(btnAdd);
             Controls.Add(label13);
             Controls.Add(label12);
             Controls.Add(label11);
@@ -851,5 +868,6 @@
         private Label label11;
         private Label label12;
         private Label label13;
+        private Button btnAdd;
     }
 }

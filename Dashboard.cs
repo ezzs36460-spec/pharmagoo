@@ -10,7 +10,7 @@ namespace PharmaGo
 {
     public partial class Dashboard : Form
     {
-        string connectionString = @"Data Source=.;Initial Catalog=Pharmago;Integrated Security=True";
+        string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=Pharmago;Integrated Security=True;TrustServerCertificate=True;";
 
         FlowLayoutPanel categoryPanel;
 
@@ -214,6 +214,14 @@ namespace PharmaGo
 
         private void button4_Click(object sender, EventArgs e)
         {
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            New_Product newProductForm = new New_Product();
+            newProductForm.Show();
+
+            this.Hide();
         }
     }
 }

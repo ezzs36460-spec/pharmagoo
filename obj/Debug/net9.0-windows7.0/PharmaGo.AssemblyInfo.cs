@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PharmaGo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfdb8d57600c76244d93c1fa5d15c02606365ee9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2b19f7c070345428a1a4dde1d0b678133eee548")]
 [assembly: System.Reflection.AssemblyProductAttribute("PharmaGo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PharmaGo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

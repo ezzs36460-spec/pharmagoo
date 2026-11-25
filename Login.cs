@@ -53,8 +53,8 @@ namespace PharmaGo
                     MessageBox.Show("Login Successful", "Success",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    MainPage home = new MainPage();
-                    home.Show();
+                    Dashboard dashboard = new Dashboard();
+                    dashboard.Show();
                     this.Hide();
                 }
                 else
